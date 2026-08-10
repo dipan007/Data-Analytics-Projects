@@ -405,5 +405,5 @@ A separate case study focused on using Power Query for practical data cleaning a
 
 Statistics Graduate | Data Analytics
 
-- LinkedIn: YOUR_LINKEDIN_URL
-- GitHub: YOUR_GITHUB_URL
+- LinkedIn: www.linkedin.com/in/dipannandi
+- Email: dipanbu007@gmail.com
