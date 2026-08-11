@@ -262,27 +262,6 @@ The dashboard surfaces several notable patterns from the analysis:
 - Salary band analysis
 - Department and job role analysis
 
----
-
-## Repository Structure
-
-```text
-hr-attrition-analysis-powerbi/
-│
-├── README.md
-│
-├── HR_Attrition_Dashboard.pbix
-│
-├── data/
-│   └── HR_Attrition_Data.xlsx
-│
-└── images/
-    ├── 01-power-query.png
-    ├── 02-data-model.png
-    ├── 03-dax-measures.png
-    ├── 04-overview-dashboard.png
-    └── 05-drivers-dashboard.png
-```
 
 ---
 
