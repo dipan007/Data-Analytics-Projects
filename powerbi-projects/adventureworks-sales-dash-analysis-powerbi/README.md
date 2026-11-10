@@ -13,7 +13,7 @@ An end-to-end Business Intelligence project that transforms raw AdventureWorks s
 
 # Dashboard Preview
 
-![Dashboard](dashboard/Home_dash.png)
+![Dashboard](dashboard/Overview_dash.png)
 
 ---
 
@@ -139,22 +139,21 @@ Business metrics were developed using DAX to support dynamic reporting and analy
 
 # Dashboard Pages
 
-## Home Dashboard
+## Overview Dashboard
 
 Provides an executive overview of overall business performance.
 
 ### Highlights
 
-- Revenue, COGS and Profit KPIs
+- Revenue, Profit, Order Qty and COGS KPIs
 - Profit Margin
-- Revenue Trend by Year and Quarter
-- Revenue by Product Color
-- Revenue by Gender
-- Product Category Performance
-- YoY Sales Growth
+- Revenue & Profit by Quarter
+- Revenue by Subcategory
+- YoY Revenue Growth by Quarter
+- Revenue Share by Country
 - Dynamic Business Summary
 
-![Home Dashboard](dashboard/Home_dash.png)
+![Overview Dashboard](dashboard/Overview_dash.png)
 
 ---
 
@@ -164,11 +163,13 @@ Analyzes business performance across different geographical locations.
 
 ### Highlights
 
-- Interactive Map
-- Country Revenue Comparison
-- Regional KPIs
-- Return Quantity Analysis
-- Dynamic Region and Year Filters
+- Country Flag Cards with Revenue
+- Top Country Summary (Revenue, Orders, Customers)
+- Interactive Map of Locations
+- Country Performance Table (Revenue, Share, Orders, Customers, Profit, YoY)
+- Revenue by Country Ranking
+- US Regional Breakdown
+- Parameter-driven Region, Year and Metric Filters
 
 ![Regional Dashboard](dashboard/Region_dash.png)
 
@@ -180,12 +181,13 @@ Provides customer-focused sales analysis.
 
 ### Highlights
 
-- Top Customers by Revenue
-- Average Revenue per Customer
-- Average Order Value
-- Revenue by Occupation
-- Customer Performance Matrix
-- Customer Filter
+- Top Customer Summary (Revenue, Orders, Type)
+- Customers by Type (Recurrent vs Not Recurrent)
+- Revenue by Year split by Customer Type
+- YTD Sales Sparkline with PY comparison
+- Customer Details Table with Days Since Last Order
+- Customers and Recurrent % by Country
+- Feature and Year Filters
 
 ![Customer Dashboard](dashboard/Customer_dash.png)
 
@@ -197,12 +199,14 @@ Provides detailed product performance analysis.
 
 ### Highlights
 
-- Top Profitable Products
-- Top Products by Revenue
-- Average Selling Price
-- Return Rate
-- Product Performance Matrix
-- Product Filter
+- Profit Margin and Return Rate KPIs
+- Top Product Summary (Revenue, Units Sold)
+- Top 10 Profitable Products by Model Name
+- Top 5 Products by Revenue
+- Returns by Category
+- Revenue by Product Color
+- Product Details Table with Days Since Last Sale
+- Category and Year Filters
 
 ![Product Dashboard](dashboard/Product_dash.png)
 
@@ -211,12 +215,13 @@ Provides detailed product performance analysis.
 # Key Insights
 
 - Generated over **$24.91M** in total revenue.
-- Achieved **$10.46M** in total profit with a **41.97%** profit margin.
-- Bikes contributed the largest share of revenue and profitability.
-- Australia and the United States were among the strongest performing markets.
+- Achieved **$10.46M** in total profit with a **41.97%** profit margin (COGS at 58.0% of revenue).
+- Scaled to **84K** order quantity across **17.42K** customers.
+- Bikes contributed the largest share of revenue and profitability; *Mountain-200 Black, 46* was the top product at **$1.24M**.
+- The **United States** was the strongest market (**$7.94M**, 31.86% of revenue), closely followed by **Australia** (29.77%).
+- Recurrent customers were only **33.63%** of the base but drove **72.1%** of revenue.
+- Return rate was **2.17%** (1 in 46 units returned).
 - Revenue showed consistent growth across the reporting period.
-- Customer purchasing behavior varied across occupations and individual customers.
-- Product profitability differed significantly across product categories.
 - Interactive filtering enables flexible analysis by geography, customer, product, and time.
 
 ---
