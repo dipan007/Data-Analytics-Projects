@@ -101,7 +101,7 @@ Mostly star schema was implemented to improve report performance and simplify an
 - Calendar table integration
 - Optimized filtering across the model
 
-![Data Model](images/Modeling.png)
+![Data Model](images/Data_model.png)
 
 ---
 
@@ -133,7 +133,7 @@ Business metrics were developed using DAX to support dynamic reporting and analy
 - SWITCH
 - Time Intelligence
 
-![DAX Measures](images/DAX_Time%20intelligence.png)
+![DAX Measures](images/DAX_measures.png)
 
 ---
 
